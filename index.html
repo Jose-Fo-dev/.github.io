@@ -1,107 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luis | Perfil Profesional</title>
-    <style>
-        /* Estilos visuales con paleta Tech (Azul oscuro, cian y blanco) */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: #1e293b;
-            max-width: 600px;
-            width: 90%;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-            text-align: center;
-            border-top: 5px solid #06b6d4;
-        }
-        h1 {
-            color: #06b6d4;
-            margin-bottom: 5px;
-        }
-        .subtitle {
-            color: #94a3b8;
-            font-size: 1.1rem;
-            margin-top: 0;
-        }
-        .bio {
-            text-align: left;
-            line-height: 1.6;
-            color: #cbd5e1;
-            margin: 20px 0;
-        }
-        .section-title {
-            color: #38bdf8;
-            text-align: left;
-            border-bottom: 1px solid #334155;
-            padding-bottom: 5px;
-            margin-top: 25px;
-        }
-        .project-card {
-            background-color: #0f172a;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: left;
-            margin-bottom: 15px;
-            border-left: 3px solid #38bdf8;
-        }
-        .project-card h4 {
-            margin: 0 0 5px 0;
-            color: #f8fafc;
-        }
-        .project-card p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #94a3b8;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Carta</title>
+  <style>
+    /* Estilos generales */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    /* Estructura de la Carta */
+    .carta-container {
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 600px;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e0e0e0;
+    }
+
+    /* Encabezado */
+    .fecha {
+      text-align: right;
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 24px;
+    }
+
+    .saludo {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #2c3e50;
+    }
+
+    /* Cuerpo del mensaje */
+    .cuerpo {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #4a4a4a;
+      margin-bottom: 24px;
+    }
+
+    .cuerpo p {
+      margin-bottom: 14px;
+    }
+
+    /* Despedida y Firma */
+    .despedida {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #4a4a4a;
+    }
+
+    .firma {
+      text-align: right;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>LUIS</h1>
-    <p class="subtitle">Desarrollador Python & Especialista en Fabricación Digital</p>
-    
-    <div class="bio">
-        <p>¡Hola! Soy un apasionado por la tecnología, la automatización y el diseño técnico basado en Barquisimeto, Venezuela. Me enfoco en resolver problemas mediante el desarrollo de software y la creación de proyectos físicos utilizando herramientas de manufactura digital y CNC.</p>
+  <div class="carta-container">
+    <div class="fecha">
+      Barquisimeto, 27 de Agosto de 2026
     </div>
 
-    <h3 class="section-title">🚀 Proyectos Destacados</h3>
-    
-    <div class="project-card">
-        <h4>System Inselara</h4>
-        <p>Software técnico de ingeniería programado en Python utilizando CustomTkinter para una interfaz gráfica moderna, eficiente y automatizada.</p>
+    <div class="saludo">
+      Estimado/a [Nombre del Destinatario],
     </div>
 
-    <div class="project-card">
-        <h4>Manufactura Digital & CNC</h4>
-        <p>Diseño de planos y escalado en SketchUp 2024 / AutoCAD, y configuración de corte láser en LightBurn para acrílico, madera y PVC.</p>
+    <div class="cuerpo">
+      <p>
+        Este es el primer párrafo de tu carta. Aquí puedes empezar a redactar el motivo principal de tu mensaje o propuesta.
+      </p>
+      <p>
+        En este segundo párrafo puedes agregar más detalles, justificaciones o cualquier información complementaria que sea necesaria.
+      </p>
     </div>
 
-    <div class="project-card">
-        <h4>Tecnología Neon Flex</h4>
-        <p>Diseño, ensamblaje y soldado de circuitos eléctricos para proyectos de iluminación publicitaria y decorativa.</p>
+    <div class="despedida">
+      Sin otro particular a que hacer referencia, se despide atentamente,
     </div>
 
-    <h3 class="section-title">🎯 Habilidades Clave</h3>
-    <p style="text-align: left; color: #cbd5e1; font-size: 0.95rem; line-height: 1.6;">
-        • Programación en Python (IDE Spyder)<br>
-        • Configuración de Redes locales y Routers (TP-Link / Mercusys)<br>
-        • Liderazgo de equipos juveniles y logística (Formación EFOERV)
-    </p>
-</div>
+    <div class="firma">
+      [Tu Nombre / Firma]<br>
+      <span style="font-weight: normal; font-size: 0.85rem; color: #666;">[Tu Cargo o Título]</span>
+    </div>
+  </div>
 
 </body>
 </html>
